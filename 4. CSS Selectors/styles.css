@@ -5,38 +5,38 @@ ___ {
 }
 
 /* TODO 4.2: Select the <p> element */
-___p {
+p {
     color: blue;
 }
 
 /* TODO 4.3: Select the elements with the class "text" */
-___.text {
+.text {
     font-size: 20px;
 }
 
 /* TODO 4.4: Select the element with the id "unique" */
-___#unique {
+#unique {
     background-color: yellow;
 }
 
 /* TODO 4.5: Select the element with the classes "title" or "text" in one query selector */
-___.title
-   .text {
+.title
+.text {
     text-align: center;
 }
 
 /* TODO 4.6: Select the descendant of body with the class "common" */
-___body .common {
+body .common {
     border: 2px solid black;
 }
 
 /* TODO 4.7: Select the element whose target attribute is set to "_blank" */
-___a[target="_blank"] {
+a[target="_blank"] {
     color: red;
 }
 
 /* TODO 4.8: Select the first letter of <p> elements */
-___p::first-letter {
+p::first-letter {
     font-size: 200%;
     color: blue;
 }
